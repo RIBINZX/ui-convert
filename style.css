@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#nav {
+    background-color: #3e3582;
+
+}
+
+.c {
+    color: white;
+}
+
+.nav {
+    background-color: transparent;
+    color: white;
+    z-index: 0;
+}
+
+#navbarSupportedContent li a {
+    color: white;
+    font-weight: 600;
+}
+
+#main nav {
+    background-color: transparent;
+}
+
+.hero {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heros {
+    margin-top: 190px;
+    color: white;
+}
+
+.heros p {
+    color: white;
+}
+
+.heros button {
+    background-color: blue;
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 3px;
+}
+#forth button {
+    background-color: #5925ec;
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 3px;
+}
+/* #nav a {
+    font-weight: bolder;
+    color: white;
+
+}
+
+#nav a:hover {
+    color: rgb(238, 29, 29);
+    text-shadow: 1px;
+} */
+
+
+
+#inp {
+    background: #fac917;
+    color: black;
+    border: #fac917;
+    font-weight: bolder;
+}
+
+#inp:hover {
+    background-color: rgb(238, 29, 29);
+    color: white;
+    border: rgb(238, 29, 29);
+}
+
+#mainh1 {
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+
+#main {
+    background-image: url(img/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    z-index: 0;
+}
+
+#secp {
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.932);
+    font-weight: bolder;
+}
+
+#secpq {
+    font: lighter;
+    font-size: 19px;
+}
+
+.bg {
+    background-color: #f3f3f3;
+}
+
+#crd h5 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#crd p {
+    font-size: 19.5px;
+    font-weight: lighter;
+}
+
+#crd a {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+#third h1 {
+    font-size: 27px;
+    font-weight: bolder;
+    color: #3e3582;
+}
+
+#third p {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#tt {
+    background-color: #f3f3f3;
+}
+
+#forths h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+#forths p {
+    font-size: 16px;
+    /* font-weight: lighter; */
+    /* line-height: 15px; */
+}
+
+#forths h2 {
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.932);
+    font-weight: bolder;
+}
+
+#five h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+#five p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#five h2 {
+    font-size: 33px;
+    color: #3e3582;
+    font-weight: bolder;
+}
+
+#card {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#cardtext {
+    background-color: white;
+
+}
+
+#cardtext {
+    position: relative;
+    left: 15px;
+}
+
+#bonus h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #00D17E;
+}
+
+#bonus h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#bonu {
+    background-color: #3e3582;
+}
+
+#six h1 {
+    font-size: 45px;
+    color: #3e3582;
+    font-weight: bolder;
+}
+
+#six p {
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+}
+
+#six h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+#icon {
+    font-size: 30px;
+}
+
+#ppp {
+    font-size: 40px;
+    color: #000000;
+    font-weight: bolder;
+}
+.reviwe .rimg{
+    border-radius: 50%;
+    width: 55px;
+    height: 61px;
+}
+.reviwe p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.rimg2{
+    width: 70px;
+    height: 50px;
+}
+
+
+
+@media (max-width: 767.98px) {
+    #mainh1 {
+        font-size: 50px;
+
+    }
+    .reviwe p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #secp {
+        font-size: 40px;
+
+    }
+
+    #ppp {
+        font-size: 40px;
+    }
+
+    #secpq {
+        font: lighter;
+        font-size: 20px;
+    }
+
+    #cardtext {
+        position: relative;
+        left: 0px;
+    }
+
+    #card {
+
+        font-size: 26px;
+    }
+
+    #bonus h2 {
+        font-size: 30px;
+
+    }
+
+    #bonus h1 {
+        font-size: 30px;
+
+    }
+
+    #ftr p {
+        display: none;
+    }
+
+    .hero {
+        font-size: 30px;
+
+    }
+    #crd h5 {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    #crd p {
+        padding-top: 8px;
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    #mainh1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        font-size: 25px;
+
+    }
+
+    .hp {
+        font-size: 11px;
+        /* width: 500px; */
+    }
+
+    #icon {
+        justify-content: center;
+    }
+
+    #ftr h6 {
+        text-align: start;
+        border-bottom: 1px rgb(187, 187, 187) solid;
+        width: fit-content;
+    }
+
+    #six h1 {
+        font-size: 30px;
+    }
+
+    #crd {
+        --bs-gutter-x: 0px
+    }
+
+    #secpq{
+        font-size: 13px;
+        /* line-height: 9px; */
+    }
+    #ppp {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    #crd h5 {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    #crd p {
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .forths{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
